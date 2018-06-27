@@ -1,0 +1,18 @@
+{
+  "name": "rpi-sensors",
+  "version": "1.0.0",
+  "description": "raspberry pi sensor control",
+  "main": "index.js",
+  "scripts": {
+    "motion-start": "pm2 start motion.js"
+  },
+  "author": "Daniel D",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.3.0",
+    "commander": "^2.15.1",
+    "express": "^4.16.3",
+    "johnny-five": "^0.15.0",
+    "pm2": "^2.10.4"
+  }
+}
